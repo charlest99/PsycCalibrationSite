@@ -11,7 +11,7 @@ database_file = "sqlite:///{}".format(os.path.join(project_dir, "chats.db"))
 app = Flask(__name__)
 CORS(app)
 app.config["SQLALCHEMY_DATABASE_URI"] = database_file
-app.secret_key = 'lmao'
+app.secret_key = '' #INSERT SECRET KEY HERE
 
 db = SQLAlchemy(app)
 
