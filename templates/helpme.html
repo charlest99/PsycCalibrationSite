@@ -68,7 +68,7 @@
 		var username = document.getElementById("userText").innerHTML;
 		$.ajax({
 		    type: "POST",
-		    url: "http://192.168.31.33/timestamp",
+		    url: "" //SEND TO IP OF TRIGGER DEVICE,
 		    // The key needs to match your method's input parameter (case-sensitive).
 		    data: JSON.stringify({ timestamp: ts, netdelay: netDelay, misc: "HELP", user:username}), //add netdelay as a parameter?
 		    contentType: "text/plain",
