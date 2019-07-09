@@ -12,3 +12,5 @@ The tests log timestamps and user info to an EEG connected trigger, as specified
 
 Now, you can run the site with:
 >python main.py
+
+This was created with flask, sqlite, and ajax.
